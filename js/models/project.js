@@ -6,6 +6,5 @@ define([
 		defaults: []
 	});
 
-	// Return the model for the module
 	return ProjectModel;
 });
