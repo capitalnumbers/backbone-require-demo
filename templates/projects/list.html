@@ -1,0 +1,8 @@
+<h2>Projects</h2>
+<hr>
+
+<ul>
+<% _.each(projects, function(project) { %>
+	<li><%= project.get('name') %></li>
+<%	}); %>
+</ul>
